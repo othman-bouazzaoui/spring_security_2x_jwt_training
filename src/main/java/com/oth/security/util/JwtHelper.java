@@ -15,7 +15,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.oth.security.util.SecurityConstants.*;
+import static com.oth.security.util.SecurityConstants.EXPIRE_ACCESS_TOKEN;
+import static com.oth.security.util.SecurityConstants.EXPIRE_REFRESH_TOKEN;
 
 @Slf4j
 @Component
